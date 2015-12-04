@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>fglrx-driver</Name>
+        <Homepage></Homepage>
+        <Packager>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Packager>
+        <Summary>Add summary</Summary>
+        <Description>Add description</Description>
+        <License>GPLv2+</License>
+        <Archive sha1sum="2a5a925194c34bdec0ec0e5b0dd3732eb840a60d" type="zip">https://solus-project.com/sources/radeon-crimson-15.11-15.30.1025.zip</Archive>
+
+        <BuildDependencies>
+            <Dependency>kernel-headers</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>fglrx-driver</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>12-04-2015</Date>
+            <Version>15.11</Version>
+            <Comment>Add fglrx-driver to repositories</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
